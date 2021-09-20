@@ -1,5 +1,6 @@
 print("hello world")
 import glob
+import numpy as np
 def record_collector():
     atr_file_path=glob.glob('dataset/*.atr')
     #print(atr_file_path)
