@@ -72,4 +72,5 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 | F    (Fusion beat) | F      |   |   |   |   | |
 | Q   (Unknown beat)  | P      | / | f | u |   |    |
 
-
+<h2>website</h2>
+<p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend will be built on flask.</p>
