@@ -1,11 +1,14 @@
 body{
   background:url("background1.jpg");
+  text-align: center;
 }
 p{
   color: green;
 }
 h1{
   color:red;
+  padding-bottom: 10px;
+  padding-top:10px;
 }
 
 
@@ -34,4 +37,7 @@ h1{
 .custom-file-input::after{
   background-color :orange;
 
+}
+.results{
+  display:none;
 }
