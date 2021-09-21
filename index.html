@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>ecg classifier</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body background="background1.jpg">
-    <h1>ecg classification to detect arrythmia</h1>
-    <p>this website is created to upload ecg signal file which is to be classified into 6 types</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>ecg classifier</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body background="background1.jpg">
+  <h1>ecg classification to detect arrythmia</h1>
+  <p>this website is created to upload ecg signal file which is to be classified into 6 types</p>
+  <div class="">
+    <p id="warning">upload only csv or raw signal file</p>
     <form class="" action="index.html" method="post">
-      <input type="file" name="" value="" class="custom-file-input" required>
-      <input type="submit"  value="submit" >
+      <input type="file" name="" id="file-uploaded" required multiple>
 
-    </form>
+      <button type="submit" name="button" id="submit-button">submit</button>
+  </div>
 
-  </body>
+  </form>
+  <p>this website is not to be used as a medical device
+    this should only be used as a decision support system</p>
+
+
+</body>
+
 </html>
