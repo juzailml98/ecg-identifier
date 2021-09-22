@@ -43,23 +43,7 @@
 
 [beats and rhythms](https://physionet.org/physiobank/database/html/mitdbdir/tables.htm#allrhythms)
 
-||Rhythm annotations appear below the level used for beat annotations|
-|-|-------------------------------------------------------------------|
-|(AB |	    Atrial bigeminy|
-|(AFIB |	Atrial fibrillation|
-|(AFL|	Atrial flutter|
-|(B|	    Ventricular bigeminy|
-|(BII|	2° heart block|
-|(IVR|	Idioventricular rhythm|
-|(N|	    Normal sinus rhythm|
-|(NOD|	Nodal (A-V junctional) rhythm|
-|(P|	    Paced rhythm|
-|(PREX|	Pre-excitation (WPW)|
-|(SBR|	Sinus bradycardia|
-|(SVTA|	Supraventricular tachyarrhythmia|
-|(T|	    Ventricular trigeminy|
-|(VFL|	Ventricular flutter|
-|(VT|	    Ventricular tachycardia
+
 
 ### AAMI recomendation for MIT 
 There are 15 recommended classes for arrhythmia that are classified into 5 superclasses: 
