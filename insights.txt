@@ -1,0 +1,8 @@
+insights from kaggle dataset
+1.data augmentation can be done using sampling
+
+insights about future projects
+1.try transfer learning instead of data augmentation
+2.train a 2d convolution instead of 1d convolution
+3.feature extraction is more important it can be done using ?
+4.add a confusion matrix
