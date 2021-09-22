@@ -75,6 +75,34 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 
 
 </ol>
+<h2>progress</h2>
+<ol>
+<li>week1,2:litreature review</li>
+<li>week3:training of a 1d cnn model using kaggle dataset and demonstration</li>
+<li>week4:converting the raw signal and annotation into csv and txt file</li>
+<li>week5:learn html,css,javascrpt,</li>
+<li>week6:website development</li>
+
+
+</ol>
+
+<h2>to be done</h2>
+<ol>
+<li>identification of peaks in the signal</li>
+<li>training of 2d cnn model </li>
+
+
+
+</ol>
+<h2>insights so far</h2>
+<ol>
+<li>try transfer learning instead of data augmentation as training the model using original dataset is very time consuming and resource consuming</li>
+
+
+
+
+</ol>
+
 
 <h2>website</h2>
-<p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend will be built on flask.</p>
+<p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend is being built using flask.</p>
