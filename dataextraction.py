@@ -1,4 +1,4 @@
-print("hello world")
+
 import glob
 import numpy as np
 def record_collector():
