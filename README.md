@@ -104,6 +104,9 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 
 </ol>
 
+<h2>training of convolutional of neural network</h2>
+
+
 
 <h2>website</h2>
 <p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend is being built using flask.</p>
