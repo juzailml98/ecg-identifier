@@ -117,7 +117,7 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <li>the data samples used for testing are [100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212, 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]</li>
 <li>hold out validation is used so that to identify how the neural network performs well for new dataset and restricted computation power </li>
  </ul>
- <p>jupyter notebook used for segmenting and grouping of ecg signal is [annotator](https://github.com/juzailml98/ecg-identifier/blob/master/annotator.ipynb)p>
+ <p>jupyter notebook used for segmenting and grouping of ecg signal is</p> [annotator](https://github.com/juzailml98/ecg-identifier/blob/master/annotator.ipynb)
 
 <h2>training of model</h2>
 <ul>
