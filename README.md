@@ -117,6 +117,17 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
  </ul>
  <p>jupyter notebook used for segmenting and grouping of ecg signal is "annotator.ipynb"</p>
 
+<h2>training of model</h2>
+<ul>
+  <li>the dataset used for training of neural network has the following distribution</li>
+  <li>the model trained was able to classify</li> 
+  <li>the model was trained for 1 epoch and obtained ...............</li>
+  <li>for one epoch with google gpu backend took 5 hours.</li>
+  <li>so intended to downsample the number of normal samples</li>
+</ul>
+<p>for better identifying the abnormal beats
+classification is done on 4 classes they are sveb,veb,usion ,normal
+  two state architecture is to be used</p>
 
 
 
