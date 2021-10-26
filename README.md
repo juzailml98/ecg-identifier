@@ -104,7 +104,19 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 
 </ol>
 
-<h2>training of convolutional of neural network</h2>
+<h2>segmentation of signal</h2>
+<ul>
+  
+  <li>initially the signal and annotations were converted into csv file for easy formatting.</li>
+  <li>then the signal is segmented into segments.each segment represent R-R intervalof a signal</li>
+  
+  <li>then segments are grouped into 5 categories namely normal,fusion,sveb,veb and unknown beats</li>
+<li>the data samples used for training are [101,106, 108, 109, 112, 114, 115, 116, 118, 119, 122, 124, 201, 203, 205, 207, 208, 209, 215, 220, 223, 230]</li>
+<li>the data samples used for testing are [100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212, 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]</li>
+<li>hold out validation is used so that to identify how the neural network performs well for new dataset and restricted computation power </li>
+ </ul>
+ <p>jupyter notebook used for segmenting and grouping of ecg signal is "annotator.ipynb"</p>
+
 
 
 
