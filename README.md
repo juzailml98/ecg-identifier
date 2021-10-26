@@ -133,4 +133,4 @@ classification is done on 4 classes they are sveb,veb,usion ,normal
 
 <h2>website</h2>
 <p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend is being built using flask.</p>
-![Website](https://github.com/juzailml98/ecg-identifier/tree/master/readme-photos/website.JPG)
+![Website](readme-photos/website.JPG?raw=true "Title")
