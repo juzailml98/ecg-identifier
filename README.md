@@ -111,6 +111,8 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
   <li>then the signal is segmented into segments.each segment represent R-R intervalof a signal</li>
   
   <li>then segments are grouped into 5 categories namely normal,fusion,sveb,veb and unknown beats</li>
+  ![segmented-samples](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/samples.png?raw=true)
+  
 <li>the data samples used for training are [101,106, 108, 109, 112, 114, 115, 116, 118, 119, 122, 124, 201, 203, 205, 207, 208, 209, 215, 220, 223, 230]</li>
 <li>the data samples used for testing are [100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212, 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]</li>
 <li>hold out validation is used so that to identify how the neural network performs well for new dataset and restricted computation power </li>
@@ -120,6 +122,7 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <h2>training of model</h2>
 <ul>
   <li>the dataset used for training of neural network has the following distribution</li>
+  ![distribution](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/data-distribution.png?raw=true)
   <li>the model trained was able to classify</li> 
   <li>the model was trained for 1 epoch and obtained ...............</li>
   <li>for one epoch with google gpu backend took 5 hours.</li>
