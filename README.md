@@ -9,7 +9,7 @@
   This project is intended to do ECG arrhythmia classification using a 2-D convolutional neural network in which we classify ECG into five categories, one being normal and the other four being different types of arrhythmia using deep two-dimensional CNN with grayscale ECG images. 
 </p>
 <h2>MIT-Arrythmia Database</h2>
-<a>https://physionet.org/content/mitdb/1.0.0/</a>
+[dataset](https://physionet.org/content/mitdb/1.0.0/)
 
 <b>360HZ</b>
 
@@ -81,24 +81,22 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <li>week1,2:litreature review</li>
 <li>week3:training of a 1d cnn model using kaggle dataset and demonstration</li>
 <li>week4:converting the raw signal and annotation into csv and txt file</li>
-<li>week5:learn html,css,javascrpt,</li>
+<li>week5:learn html,css,javascrpt</li>
 <li>week6:website development</li>
+<li>week6:converting the ecg signal into grayscale images</li>
+<li>week7,week8,week 9:training of the neural network and optimization of neural netowrk </li>
+<li>week 10,week 11:implementation of pan tompkins algorithm to detect r peaks</li>
+<li>week 12:setting up the website to take an ecg signal as input and output the results</li>
+
 
 
 </ol>
 
 <h2>to be done</h2>
 <ol>
-<li>identification of peaks in the signal</li>
-<li>training of 2d cnn model </li>
-
-
-
-</ol>
-<h2>insights so far</h2>
-<ol>
-<li>try transfer learning instead of data augmentation as training the model using original dataset is very time consuming and resource consuming</li>
-
+<li>identification of peaks in the signal using pan tompkins algorithm</li>
+<li>fine tuning the neural network </li>
+<li>finalizing the website</li>
 
 
 
@@ -123,8 +121,8 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <ul>
   <li>the dataset used for training of neural network has the following distribution</li>
   ![distribution](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/data-distribution.png?raw=true)
-  <li>the model trained was able to classify</li> 
-  <li>the model was trained for 1 epoch and obtained ...............</li>
+  <li>the model trained was able to classify the signal into 5 categories</li> 
+  <li>the model was trained for 2 epoch and obtained accuracy of 90.9,recall of 89.1 and precision of 91.1</li>
   <li>for one epoch with google gpu backend took 5 hours.</li>
   <li>so intended to downsample the number of normal samples</li>
 </ul>
