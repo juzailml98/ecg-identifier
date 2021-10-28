@@ -134,7 +134,18 @@ classification is done on 4 classes they are sveb,veb,usion ,normal
 
 
 <h2>nature of dataset</h2>
-<p>dadadadad</p>
+<p>the original mit-bih dataset consists of</p>
+<ul>
+  <li>normal beats:83000</li>
+  <li>sveb beats:3013</li>
+  <li>veb beats:6335</li>
+  <li>fusion beats:801</li>
+  <li>other beats:2309</li>
+ <ul>
+   <p>the dataset is very unbalanced due to high availability of normal beats and low availability of other classes</p>
+   <p>normal beats are divided into 45035 and 38032 as training set and testing set</p>
+   <p>the training set normal beats are downsampled to 18000 from 45000</p>
+   
 <h2>website</h2>
 <p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend is being built using flask.</p>
 ![sample](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/website.png?raw=true)
