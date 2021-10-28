@@ -139,7 +139,7 @@ classification is done on 4 classes they are sveb,veb,usion ,normal
   <li>veb beats:6335</li>
   <li>fusion beats:801</li>
   <li>other beats:2309</li>
- <ul>
+ </ul>
    <p>the dataset is very unbalanced due to high availability of normal beats and low availability of other classes</p>
    <p>normal beats are divided into 45035 and 38032 as training set and testing set</p>
    <p>the training set normal beats are downsampled to 18000 from 45000</p>
