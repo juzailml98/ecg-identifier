@@ -165,7 +165,7 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
   <li>the dataset used for training of neural network has the following distribution</li>
   ![distribution](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/data-distribution.png?raw=true)
   <li>the model trained was able to classify the signal into 5 categories</li> 
-  <li>the model was trained for 2 epoch and obtained accuracy of 90.9,recall of 89.1 and precision of 91.1</li>
+  <li>the model was trained for 10 epoch and obtained accuracy of 94.9,recall of 92.1 and precision of 93.4</li>
   
   <li>intended to downsample the number of normal samples</li>
 </ul>
