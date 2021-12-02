@@ -40,6 +40,15 @@
 <li>Website to load and visualize the classification results</li>
 </ul>
 
+<h2>peak detection</h2>
+<ul>
+  <li>Pantombkins algorithm(my choice)</li>
+<li>Wavelet transformation</li>
+<li>Two moving averages</li>
+<li>Hamilton algorithm</li>
+</ul>
+<p>I tested neurokit2 python package for detection of r peaks.checked the annotation provided with original annotation.neurokit2 was able to predict annotation with 99.8% accuracy.also documentation of neurokit2 has functions to take ecg signal of various sampling ffrequency.I am currently developing pantombkins algorithm using python  </p>
+
 <h2>MIT-Arrythmia Database</h2>
 [dataset](https://physionet.org/content/mitdb/1.0.0/)
 
@@ -115,10 +124,11 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <li>week4:converting the raw signal and annotation into csv and txt file</li>
 <li>week5:learn html,css,javascrpt</li>
 <li>week6:website development</li>
-<li>week6:converting the ecg signal into grayscale images</li>
-<li>week7,week8,week 9:training of the neural network and optimization of neural netowrk </li>
-<li>week 10,week 11:implementation of pan tompkins algorithm to detect r peaks</li>
-<li>week 12:setting up the website to take an ecg signal as input and output the results</li>
+<li>week6:converting the ecg signal into grayscale images,dividing of images into 5 super classes for training purposes</li>
+<li>week7,week8,week 9:training of the neural network and optimization of neural network </li>
+<li>week 10,week 11:implementation of pan tompkins algorithm to detect r peaks,testing of neurokit2 library</li>
+<li>week 12:setting up a jupyter notebook for mid evaluation</li>
+  
 
 
 
@@ -126,9 +136,10 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 
 <h2>to be done</h2>
 <ol>
-<li>identification of peaks in the signal using pan tompkins algorithm</li>
+<li>training the neural network with V1 lead</li>
 <li>fine tuning the neural network </li>
-<li>finalizing the website</li>
+<li>setting up the GUI using Tkinter for demonstration</li>
+  
 
 
 
@@ -155,8 +166,8 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
   ![distribution](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/png-file/data-distribution.png?raw=true)
   <li>the model trained was able to classify the signal into 5 categories</li> 
   <li>the model was trained for 2 epoch and obtained accuracy of 90.9,recall of 89.1 and precision of 91.1</li>
-  <li>for one epoch with google gpu backend took 5 hours.</li>
-  <li>so intended to downsample the number of normal samples</li>
+  
+  <li>intended to downsample the number of normal samples</li>
 </ul>
 <p>for better identifying the abnormal beats
 classification is done on 4 classes they are sveb,veb,usion ,normal
@@ -174,7 +185,7 @@ classification is done on 4 classes they are sveb,veb,usion ,normal
  </ul>
    <p>the dataset is very unbalanced due to high availability of normal beats and low availability of other classes</p>
    <p>normal beats are divided into 45035 and 38032 as training set and testing set</p>
-   <p>the training set normal beats are downsampled to 18000 from 45000</p>
+   <p>the training set normal beats are downsampled to 10000 from 45000</p>
    
 <h2>website</h2>
 <p>the ecg-classifer website is built using css,javascript and html.the website takes the raw ecg signal or csv converted ecg signal as input.the file uploaded will be sent to backend where the classification happens.the backend is being built using flask.</p>
