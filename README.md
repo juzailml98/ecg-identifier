@@ -5,7 +5,7 @@
 (CVDs) are the number one cause of death today. Over 17.7 million people died from CVDs in the year 2017 all over the world which is about 31% of all deaths, and over 75% of these deaths occur in low and middle income countries. Arrhythmia is a representative type of CVD that refers to any irregular change from the normal heart rhythms. There are several types of arrhythmia including atrial fibrillation, premature contraction, ventricular fibrillation, and tachycardia. Although single arrhythmia heartbeat may not have a serious impact on life, continuous arrhythmia beats can result in fatal circumstances. For example, prolonged premature ventricular contraction (PVCs) beats occasionally turn into a ventricular tachycardia (VT) or ventricular fibrillation (VF) beats which can immediately lead to heart failure. Thus, it is important to periodically monitor the heart rhythms to manage and prevent the CVDs. Electrocardiogram (ECG) is a non-invasive medical tool that displays the rhythm and status of the heart. Therefore, automatic detection of irregular heart rhythms from ECG signals is a significant task in the field of cardiology.
 </p>
 
-<h2>Why automated ECG classification is necessary?![image](https://user-images.githubusercontent.com/84030708/144447606-b699b0f2-2e0d-4db3-b781-892efd985392.png)</h2>
+<h2>Why automated ECG classification is necessary?</h2>
 <ul>
   <li>Identification of arrhythmia condition from ECG signal takes a lot of experience even for experienced cardiologists.</li>
   <li>Harmful arrhythmia conditions occur rarely so less data for analysis and prediction</li>
@@ -114,6 +114,7 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <li>tensorflow</li>
 <li>pandas</li>
 <li>wfdb</li>
+  <li>neurokit2</li>
 
 
 </ol>
@@ -123,7 +124,7 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 <li>week3:training of a 1d cnn model using kaggle dataset and demonstration</li>
 <li>week4:converting the raw signal and annotation into csv and txt file</li>
 <li>week5:learn html,css,javascrpt</li>
-<li>week6:website development</li>
+<li>week6:website development,stanford idea implementation(fitbit)</li>
 <li>week6:converting the ecg signal into grayscale images,dividing of images into 5 super classes for training purposes</li>
 <li>week7,week8,week 9:training of the neural network and optimization of neural network </li>
 <li>week 10,week 11:implementation of pan tompkins algorithm to detect r peaks,testing of neurokit2 library</li>
@@ -134,6 +135,10 @@ There are 15 recommended classes for arrhythmia that are classified into 5 super
 
 </ol>
 
+<h2>project architucture</h2>
+![image](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/architecture.JPG)
+<h2>cnn model architucture</h2>
+![image](https://github.com/juzailml98/ecg-identifier/blob/master/readme-photos/model.JPG)
 <h2>to be done</h2>
 <ol>
 <li>training the neural network with V1 lead</li>
