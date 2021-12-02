@@ -4,6 +4,9 @@
   According to the World Health Organization (WHO), cardiovascular diseases
 (CVDs) are the number one cause of death today. Over 17.7 million people died from CVDs in the year 2017 all over the world which is about 31% of all deaths, and over 75% of these deaths occur in low and middle income countries. Arrhythmia is a representative type of CVD that refers to any irregular change from the normal heart rhythms. There are several types of arrhythmia including atrial fibrillation, premature contraction, ventricular fibrillation, and tachycardia. Although single arrhythmia heartbeat may not have a serious impact on life, continuous arrhythmia beats can result in fatal circumstances. For example, prolonged premature ventricular contraction (PVCs) beats occasionally turn into a ventricular tachycardia (VT) or ventricular fibrillation (VF) beats which can immediately lead to heart failure. Thus, it is important to periodically monitor the heart rhythms to manage and prevent the CVDs. Electrocardiogram (ECG) is a non-invasive medical tool that displays the rhythm and status of the heart. Therefore, automatic detection of irregular heart rhythms from ECG signals is a significant task in the field of cardiology.
 </p>
+
+<p>Why automated ECG classification is necessary?![image](https://user-images.githubusercontent.com/84030708/144447606-b699b0f2-2e0d-4db3-b781-892efd985392.png)</p>
+
 <h2>scope of the project</h2>
 <p>
   This project is intended to do ECG arrhythmia classification using a 2-D convolutional neural network in which we classify ECG into five categories, one being normal and the other four being different types of arrhythmia using deep two-dimensional CNN with grayscale ECG images. 
