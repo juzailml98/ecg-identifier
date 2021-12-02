@@ -30,7 +30,15 @@
   <li>The system is able to take ECG signal at various sampling frequency</li>
   <li>The system has a display and store unit which can be used by physicians for further reference</li> 
 </ul>
-
+<h2>subtasks of the projects</h2>
+<ul>
+  <li>Peak detection.</li>
+<li>Dividing the signal into multiple sub parts using peaks obtained from peak detection.</li>
+<li>Converting the segmented signal into image.</li>
+<li>Training of the CNN neural network using images of signals</li>
+<li>Classification of ECG signal whether it is normal or harmful</li>
+<li>Website to load and visualize the classification results</li>
+</ul>
 
 <h2>MIT-Arrythmia Database</h2>
 [dataset](https://physionet.org/content/mitdb/1.0.0/)
