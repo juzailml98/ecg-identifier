@@ -16,6 +16,22 @@
 <p>
   This project is intended to identify and classify various heart conditions using a 2-D convolutional neural network in which we classify ECG into five categories, one being normal and the other four being different types of arrhythmia beats.The user will have a website to upload the raw ecg signal and the website will diplay the result of classification
 </p>
+<h2>previously used approach</h2>
+<ul>
+  <li>Wavelet transform/Fourier transform</li>
+  <li>Conv1D neural network</li>
+  <li>Window based approach</li>
+</ul>
+
+<h2>my approach</h2>
+<ul>
+  <li>Conv2D network was used for classification and cnn is trained using grayscale images of ECG signals</li>
+  <li>r-r interval is used instead of window based apporach</li>
+  <li>The system is able to take ECG signal at various sampling frequency</li>
+  <li>The system has a display and store unit which can be used by physicians for further reference</li> 
+</ul>
+
+
 <h2>MIT-Arrythmia Database</h2>
 [dataset](https://physionet.org/content/mitdb/1.0.0/)
 
